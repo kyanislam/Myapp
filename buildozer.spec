@@ -1,23 +1,14 @@
 [app]
-
-title = Azkar App
+title = AzkarApp
 package.name = azkarapp
-package.domain = org.myapp
+package.domain = org.kyanislam
 source.dir = .
-source.include_exts = py,kv,ttf,png,jpg,atlas
-
-requirements = python3,kivy,arabic_reshaper,python-bidi,random
+source.include_exts = py,png,jpg,kv,atlas,ttf
+version = 1.0
+requirements = python3,kivy,arabic-reshaper,python-bidi
 orientation = portrait
 fullscreen = 0
 
-android.archs = armeabi-v7a, arm64-v8a
-android.minapi = 21
-android.sdk = 33
-android.ndk = 25b
-android.ndk_api = 21
-android.gradle_dependencies = 
-
+[buildozer]
 log_level = 2
-
-# لو معاك خط عربي لازم تضيفه
-android.presplash_color = #FFFFFF
+warn_on_root = 1
