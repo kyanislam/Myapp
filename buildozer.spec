@@ -6,7 +6,7 @@ package.domain = org.myapp
 source.dir = .
 source.include_exts = py,kv,ttf,png,jpg,atlas
 
-requirements = python3,kivy,arabic_reshaper,python-bidi
+requirements = python3,kivy,arabic_reshaper,python-bidi,random
 orientation = portrait
 fullscreen = 0
 
